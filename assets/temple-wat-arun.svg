@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Wat Arun Temple">
+  <rect width="900" height="675" fill="#f3d6a3"/>
+  <circle cx="720" cy="145" r="78" fill="#ffcf70"/>
+  <path d="M0 525 C150 485 330 540 475 500 C650 455 755 500 900 465 V675 H0 Z" fill="#3d8ea3"/>
+  <path d="M430 120 L510 520 H350 Z" fill="#f7f2df" stroke="#8f7f62" stroke-width="10"/>
+  <path d="M245 230 L305 520 H185 Z M635 230 L695 520 H575 Z" fill="#efe6c8" stroke="#8f7f62" stroke-width="8"/>
+  <path d="M388 330 H472 M370 410 H490 M350 500 H510" stroke="#bf6b3d" stroke-width="18"/>
+  <text x="42" y="620" font-family="Arial" font-size="54" font-weight="700" fill="#56351f">Wat Arun</text>
+</svg>

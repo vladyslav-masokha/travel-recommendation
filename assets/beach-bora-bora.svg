@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Bora Bora Beach">
+  <rect width="900" height="675" fill="#87d8e8"/>
+  <circle cx="730" cy="120" r="70" fill="#ffd166"/>
+  <path d="M0 390 C170 340 300 420 460 370 C630 315 760 350 900 310 V675 H0 Z" fill="#0f8f9f"/>
+  <path d="M0 500 C180 450 330 530 520 480 C690 435 805 470 900 440 V675 H0 Z" fill="#f7d99b"/>
+  <path d="M145 390 l42 -150 l42 150" fill="none" stroke="#6f4e37" stroke-width="22" stroke-linecap="round"/>
+  <path d="M190 250 C105 205 100 140 225 185 C250 110 330 115 270 220 C355 210 380 285 255 285" fill="#1b9a59"/>
+  <text x="42" y="620" font-family="Arial" font-size="50" font-weight="700" fill="#173f46">Bora Bora Beach</text>
+</svg>

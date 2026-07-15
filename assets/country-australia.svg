@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Australia">
+  <rect width="900" height="675" fill="#9ad7df"/>
+  <circle cx="730" cy="120" r="70" fill="#ffd166"/>
+  <path d="M0 490 C170 455 325 510 500 465 C650 425 770 460 900 430 V675 H0 Z" fill="#e9bd6f"/>
+  <path d="M285 390 C340 315 420 315 475 390 C430 360 335 360 285 390 Z" fill="#ffffff"/>
+  <path d="M485 390 C540 315 620 315 675 390 C630 360 535 360 485 390 Z" fill="#ffffff"/>
+  <path d="M350 390 H610 V425 H350 Z" fill="#ffffff"/>
+  <text x="42" y="620" font-family="Arial" font-size="64" font-weight="700" fill="#173f46">Australia</text>
+</svg>

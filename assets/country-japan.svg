@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Japan">
+  <rect width="900" height="675" fill="#f4f7fb"/>
+  <circle cx="450" cy="285" r="115" fill="#d62828"/>
+  <path d="M0 510 C140 480 260 515 390 485 C540 450 700 500 900 455 V675 H0 Z" fill="#253858"/>
+  <path d="M165 505 L300 265 L435 505 Z" fill="#ffffff"/>
+  <path d="M205 505 L300 335 L395 505 Z" fill="#b8dff1"/>
+  <text x="42" y="620" font-family="Arial" font-size="64" font-weight="700" fill="#253858">Japan</text>
+</svg>

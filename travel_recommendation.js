@@ -2,72 +2,72 @@ const recommendations = {
   beach: [
     {
       name: 'Bora Bora Beach, French Polynesia',
-      image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80',
+      image: 'assets/beach-bora-bora.svg',
       description: 'Clear lagoon water, soft sand, and calm island scenery for a relaxing beach escape.'
     },
     {
       name: 'Maui Beach, Hawaii',
-      image: 'https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=80',
+      image: 'assets/beach-maui.svg',
       description: 'A scenic coastline with warm water, surf spots, and unforgettable sunsets.'
     }
   ],
   temple: [
     {
       name: 'Kiyomizu-dera, Japan',
-      image: 'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=900&q=80',
+      image: 'assets/temple-kiyomizu.svg',
       description: 'A historic Kyoto temple known for its wooden stage and beautiful city views.'
     },
     {
       name: 'Wat Arun, Thailand',
-      image: 'https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=900&q=80',
+      image: 'assets/temple-wat-arun.svg',
       description: 'A riverside temple in Bangkok with detailed architecture and golden evening light.'
     }
   ],
   japan: [
     {
       name: 'Tokyo, Japan',
-      image: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=900&q=80',
+      image: 'assets/country-japan.svg',
       description: 'A vibrant capital with technology, food, shopping, gardens, and museums.'
     },
     {
       name: 'Kyoto, Japan',
-      image: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=900&q=80',
+      image: 'assets/temple-kiyomizu.svg',
       description: 'A cultural city famous for shrines, temples, tea houses, and traditional streets.'
     }
   ],
   australia: [
     {
       name: 'Sydney, Australia',
-      image: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=900&q=80',
+      image: 'assets/country-australia.svg',
       description: 'A harbor city with beaches, restaurants, and iconic performing arts venues.'
     },
     {
       name: 'Great Barrier Reef, Australia',
-      image: 'https://images.unsplash.com/photo-1582967788606-a171c1080cb0?auto=format&fit=crop&w=900&q=80',
+      image: 'assets/beach-bora-bora.svg',
       description: 'A natural wonder for snorkeling, diving, and seeing colorful marine life.'
     }
   ],
   brazil: [
     {
       name: 'Rio de Janeiro, Brazil',
-      image: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=900&q=80',
+      image: 'assets/country-brazil.svg',
       description: 'A coastal city with beaches, mountain viewpoints, music, and energetic culture.'
     },
     {
       name: 'Iguazu Falls, Brazil',
-      image: 'https://images.unsplash.com/photo-1525874684015-58379d421a52?auto=format&fit=crop&w=900&q=80',
+      image: 'assets/country-brazil.svg',
       description: 'A dramatic waterfall destination surrounded by lush national park landscapes.'
     }
   ],
   country: [
     {
       name: 'Japan',
-      image: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=900&q=80',
+      image: 'assets/country-japan.svg',
       description: 'Japan blends futuristic cities, peaceful temples, mountain views, and deep cultural traditions.'
     },
     {
       name: 'Australia',
-      image: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=900&q=80',
+      image: 'assets/country-australia.svg',
       description: 'Australia offers iconic city landmarks, coastlines, reefs, wildlife, and wide open landscapes.'
     }
   ]

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Brazil">
+  <rect width="900" height="675" fill="#91d3c3"/>
+  <path d="M0 510 C150 455 320 505 455 455 C620 390 760 430 900 380 V675 H0 Z" fill="#2d9c5b"/>
+  <path d="M120 470 C205 295 350 260 450 470 Z" fill="#365f4b"/>
+  <path d="M420 470 C520 270 700 250 790 470 Z" fill="#365f4b"/>
+  <path d="M590 150 C635 210 675 240 745 245 C675 290 640 335 615 405 C585 335 545 295 480 265 C550 245 575 210 590 150 Z" fill="#ffd166"/>
+  <text x="42" y="620" font-family="Arial" font-size="64" font-weight="700" fill="#18412e">Brazil</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Kiyomizu-dera Temple">
+  <rect width="900" height="675" fill="#d9ecf2"/>
+  <path d="M0 500 C150 450 285 485 410 445 C590 390 720 425 900 360 V675 H0 Z" fill="#9fcf9f"/>
+  <path d="M270 310 H630 L585 250 H315 Z" fill="#9d2f2f"/>
+  <path d="M320 310 H580 V515 H320 Z" fill="#c86b43"/>
+  <path d="M250 515 H650 V555 H250 Z" fill="#5c4033"/>
+  <path d="M345 355 H405 V515 H345 Z M495 355 H555 V515 H495 Z" fill="#f9d79d"/>
+  <path d="M235 310 H665" stroke="#4b2f27" stroke-width="28" stroke-linecap="round"/>
+  <text x="42" y="620" font-family="Arial" font-size="48" font-weight="700" fill="#4a2724">Kiyomizu-dera</text>
+</svg>

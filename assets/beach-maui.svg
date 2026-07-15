@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Maui Beach">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#f9b24e"/>
+      <stop offset="1" stop-color="#72c6d2"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="675" fill="url(#sky)"/>
+  <circle cx="705" cy="175" r="82" fill="#ffe082"/>
+  <path d="M0 320 C160 270 300 345 460 305 C610 265 760 330 900 285 V675 H0 Z" fill="#127c8a"/>
+  <path d="M0 470 C170 430 330 500 520 455 C675 420 785 460 900 430 V675 H0 Z" fill="#f2c77c"/>
+  <path d="M0 375 C120 405 170 345 275 370 C380 395 425 330 520 365" fill="none" stroke="#ffffff" stroke-width="20" opacity=".9"/>
+  <text x="42" y="620" font-family="Arial" font-size="54" font-weight="700" fill="#143d43">Maui Beach</text>
+</svg>
