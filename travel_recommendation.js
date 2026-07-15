@@ -158,6 +158,8 @@ function displayRecommendations(items, label) {
     `;
     results.appendChild(card);
   });
+
+  document.querySelector('.results-panel').scrollIntoView({ block: 'start', behavior: 'smooth' });
 }
 
 function clearRecommendations() {
