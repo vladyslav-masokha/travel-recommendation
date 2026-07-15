@@ -86,9 +86,30 @@ const resultsMessage = document.getElementById('resultsMessage');
 const clearButton = document.getElementById('clearButton');
 const exploreButton = document.getElementById('exploreButton');
 
-function showPage(pageName) {
+const pageHashes = {
+  home: '',
+  about: 'about',
+  contact: 'contact'
+};
+
+function showPage(pageName, updateHash = true) {
   Object.values(pages).forEach((page) => page.classList.remove('active'));
   pages[pageName].classList.add('active');
+
+  if (updateHash) {
+    const nextHash = pageHashes[pageName];
+    if (nextHash) {
+      window.location.hash = nextHash;
+    } else {
+      history.replaceState(null, '', window.location.pathname);
+    }
+  }
+}
+
+function showPageFromHash() {
+  const hash = window.location.hash.replace('#', '');
+  const pageName = Object.entries(pageHashes).find((entry) => entry[1] === hash)?.[0] || 'home';
+  showPage(pageName, false);
 }
 
 function normalizeSearchTerm(term) {
@@ -170,3 +191,6 @@ exploreButton.addEventListener('click', () => {
   searchInput.value = 'beach';
   displayRecommendations(recommendations.beach, 'beach');
 });
+
+window.addEventListener('hashchange', showPageFromHash);
+showPageFromHash();
