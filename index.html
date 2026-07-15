@@ -40,7 +40,7 @@
         <section class="results-panel" aria-live="polite">
           <div class="results-heading">
             <h2>Recommendations</h2>
-            <p id="resultsMessage">Search for beach, temple, Japan, Australia, or Brazil.</p>
+            <p id="resultsMessage">Search for beach, temple, country, Japan, Australia, or Brazil.</p>
           </div>
           <div class="recommendation-grid" id="recommendationResults"></div>
         </section>
@@ -89,21 +89,29 @@
           <p class="eyebrow">Contact us</p>
           <h1>Tell us where you want to go next</h1>
         </div>
-        <form class="contact-form">
-          <label>
-            Name
-            <input type="text" name="name" placeholder="Your name" required />
-          </label>
-          <label>
-            Email
-            <input type="email" name="email" placeholder="you@example.com" required />
-          </label>
-          <label>
-            Message
-            <textarea name="message" rows="7" placeholder="Share your travel question" required></textarea>
-          </label>
-          <button type="submit">Submit</button>
-        </form>
+        <div class="contact-layout">
+          <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: travelbloom@example.com</p>
+            <p>Phone: +1 555 0198</p>
+            <p>Address: 120 Explorer Avenue, New York, NY</p>
+          </section>
+          <form class="contact-form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="7" placeholder="Share your travel question" required></textarea>
+            </label>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
       </section>
     </main>
 

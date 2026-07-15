@@ -58,6 +58,18 @@ const recommendations = {
       image: 'https://images.unsplash.com/photo-1525874684015-58379d421a52?auto=format&fit=crop&w=900&q=80',
       description: 'A dramatic waterfall destination surrounded by lush national park landscapes.'
     }
+  ],
+  country: [
+    {
+      name: 'Japan',
+      image: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=900&q=80',
+      description: 'Japan blends futuristic cities, peaceful temples, mountain views, and deep cultural traditions.'
+    },
+    {
+      name: 'Australia',
+      image: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=900&q=80',
+      description: 'Australia offers iconic city landmarks, coastlines, reefs, wildlife, and wide open landscapes.'
+    }
   ]
 };
 
@@ -88,6 +100,10 @@ function normalizeSearchTerm(term) {
 
   if (value.includes('temple') || value.includes('tempel')) {
     return 'temple';
+  }
+
+  if (value.includes('country') || value.includes('countries') || value.includes('land')) {
+    return 'country';
   }
 
   if (value.includes('japan')) {
@@ -126,7 +142,7 @@ function displayRecommendations(items, label) {
 function clearRecommendations() {
   searchInput.value = '';
   results.innerHTML = '';
-  resultsMessage.textContent = 'Search for beach, temple, Japan, Australia, or Brazil.';
+  resultsMessage.textContent = 'Search for beach, temple, country, Japan, Australia, or Brazil.';
 }
 
 document.querySelectorAll('[data-page]').forEach((button) => {
@@ -146,7 +162,7 @@ searchForm.addEventListener('submit', (event) => {
   }
 
   results.innerHTML = '';
-  resultsMessage.textContent = 'No recommendations found. Try beach, temple, Japan, Australia, or Brazil.';
+  resultsMessage.textContent = 'No recommendations found. Try beach, temple, country, Japan, Australia, or Brazil.';
 });
 
 clearButton.addEventListener('click', clearRecommendations);

@@ -230,6 +230,7 @@ button {
 }
 
 .about-layout article,
+.contact-info,
 .contact-form {
   background: white;
   border: 1px solid #dde4e2;
@@ -266,10 +267,24 @@ button {
   margin-top: 4px;
 }
 
+.contact-layout {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: minmax(240px, 0.8fr) minmax(320px, 1.2fr);
+}
+
+.contact-info h2 {
+  margin-top: 0;
+}
+
+.contact-info p {
+  color: #566461;
+  line-height: 1.5;
+}
+
 .contact-form {
   display: grid;
   gap: 16px;
-  max-width: 760px;
 }
 
 .contact-form label {
@@ -301,6 +316,10 @@ button {
   }
 
   .about-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-layout {
     grid-template-columns: 1fr;
   }
 }
